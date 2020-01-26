@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: DrinkLiquidOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: d21331b71396a654cac0b9d5576c51a3, type: 2}
+  image: {fileID: 21300000, guid: 55eb5cddea61f434e9b339d772f0a5ec, type: 3}
+  text: The concoction goes down with the viscosity of molasses before you feel a
+    tingle. Your world explodes in bright colors and visions of other lives...A pork
+    butcher, hero, and tyrant. The images overwhelm your mind before you perish from
+    an aneurysm.
+  question: ' Have you or a loved one suffered from Mesothelioma'
+  mode: 0
+  optionsText:
+  - Yes
+  - No
+  optionRefs:
+  - {fileID: 11400000, guid: 8f493db77f728bb48a7339f697b11e12, type: 2}
+  - {fileID: 11400000, guid: 8f493db77f728bb48a7339f697b11e12, type: 2}

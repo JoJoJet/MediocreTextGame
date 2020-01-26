@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: TakePosessionsOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: f213973d105583d4dba570cf2e3465fb, type: 2}
+  image: {fileID: 21300000, guid: b383f53d01d5fbd43897d393a6ffec5e, type: 3}
+  text: One man's loss is another's treasure, and possession is 9/10 of the law.
+  question: Are you on our criminal records?
+  mode: 0
+  optionsText:
+  - A minor offense
+  - I am a felon
+  - I would never violate the law!
+  - We have laws?
+  optionRefs:
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}

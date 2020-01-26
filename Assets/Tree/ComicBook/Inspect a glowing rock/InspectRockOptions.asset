@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: InspectRockOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 93107f0aacedcc747b21507c4972407b, type: 2}
+  music: {fileID: 0}
+  background: {r: 1, g: 1, b: 1, a: 0}
+  image: {fileID: 21300000, guid: efd57344ca08ad9468f03d7c6daa16d4, type: 3}
+  text: Your body transforms into a half-human, half-crayfish superbeing.
+  question: What do you do first?
+  mode: 0
+  optionsText:
+  - Produce stomach salts
+  - Mate in the autumn season
+  - Cast off your old exoskeleton
+  optionRefs:
+  - {fileID: 11400000, guid: 0e6864af11a8d784cb1c085c9f0894ec, type: 2}
+  - {fileID: 11400000, guid: 5aab842caa070ce42b7fd73569240e80, type: 2}
+  - {fileID: 11400000, guid: eafd5a23e04f22f488fcd89abb5c4234, type: 2}

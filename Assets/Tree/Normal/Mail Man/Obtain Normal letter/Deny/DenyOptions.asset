@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: DenyOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 61a22fbfe4611f642b6318bb1db436b2, type: 2}
+  image: {fileID: 21300000, guid: a3bb0e8a4b160fe4fafeea99ccfcbaf4, type: 3}
+  text: DEATH FROM EXTREMELY AVERAGE BORDOOM
+  question: You are dead
+  mode: 1
+  optionsText: []
+  optionRefs: []

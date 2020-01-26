@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: YellowPackageOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 891a12f1fc82f564183223da8ec057ec, type: 2}
+  image: {fileID: 21300000, guid: 89b25e9f89bd4124e8f731cf40ae1c4b, type: 3}
+  text: The package asks whether or not you are eligible for selective service.
+  question: What do you check?
+  mode: 0
+  optionsText:
+  - Check yes
+  - Check no
+  optionRefs:
+  - {fileID: 11400000, guid: 9cb7199c510b3544ab7e4631c076c5ba, type: 2}
+  - {fileID: 11400000, guid: a4a3e9b934ccb0d4dbb236d07489419f, type: 2}

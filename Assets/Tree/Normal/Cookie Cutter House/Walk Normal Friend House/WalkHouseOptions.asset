@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: WalkHouseOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 917b4f2b6604ee64aa64b25e05f82104, type: 2}
+  image: {fileID: 21300000, guid: 5bfb18005a596914d934cec84057ef99, type: 3}
+  text: A NORMAL burgular appears before thee.
+  question: 
+  mode: 0
+  optionsText:
+  - RUn
+  - Shake hands
+  - Ask for hand in marriage
+  optionRefs:
+  - {fileID: 11400000, guid: 646b24d3288a99347bf7419003f19aa0, type: 2}
+  - {fileID: 11400000, guid: b83c7b293dbc1534b96ee64ba6d90132, type: 2}
+  - {fileID: 11400000, guid: 2ffea46ed4b8ca64385ee646718e465c, type: 2}

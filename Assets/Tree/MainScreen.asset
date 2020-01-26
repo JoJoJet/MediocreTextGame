@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: MainScreen
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 0}
+  music: {fileID: 0}
+  background: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
+  image: {fileID: 21300000, guid: 9f6479d19f715204dbc4d881c4dc8ba7, type: 3}
+  text: You wake up in a library.
+  question: Choose a book to read.
+  mode: 0
+  optionsText:
+  - Epics
+  - Comic book
+  - Books are stupid
+  optionRefs:
+  - {fileID: 11400000, guid: db9d6ed63e6501d46ba309c77ce2ea4c, type: 2}
+  - {fileID: 11400000, guid: 93107f0aacedcc747b21507c4972407b, type: 2}
+  - {fileID: 11400000, guid: 14bb850622e31c749aabd2a4936b8d29, type: 2}

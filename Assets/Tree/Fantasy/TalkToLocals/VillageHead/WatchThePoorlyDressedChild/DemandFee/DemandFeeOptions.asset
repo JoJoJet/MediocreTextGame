@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: DemandFeeOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: b7af452780d65854ea6987dd8112f2dc, type: 2}
+  image: {fileID: 21300000, guid: 2577c02bd4490a84eb236d1d1c2ccdae, type: 3}
+  text: "He tells you he can\u2019t afford the expense. So he and the other lost boys
+    become your servants filling your gold coffers."
+  question: Greed ended King Midas, In what form do you keep your hoard?
+  mode: 0
+  optionsText:
+  - CryptoCurrency is the future
+  - Swipe that Plastic
+  - Banks are for clowns boi
+  - Bills are blue hunty
+  optionRefs:
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}
+  - {fileID: 11400000, guid: 5852681118ceebf41a5ec8ff102fa43f, type: 2}

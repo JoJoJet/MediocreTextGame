@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: HouseOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 14bb850622e31c749aabd2a4936b8d29, type: 2}
+  image: {fileID: 21300000, guid: 7af7a916eceb91b4e843851bd337ee8d, type: 3}
+  text: You see a NORMAL cookie-cutter house. You decide to go somehwere NORMAL.
+  question: 
+  mode: 0
+  optionsText:
+  - Walk to NORMAL friend's house
+  - Text & Drive to NORMAL friend
+  - Go to NORMAL park
+  - Jump from NORMAL bush
+  optionRefs:
+  - {fileID: 11400000, guid: db9b62b041c7f3c4489ac500f9305a9c, type: 2}
+  - {fileID: 11400000, guid: e2c8ba48e2f82e54d864ca33943f156b, type: 2}
+  - {fileID: 11400000, guid: cf5df3a13d78d854c9a2dd24412fc0fa, type: 2}
+  - {fileID: 11400000, guid: c41ff78440e5b664ea789e9d3dd3749a, type: 2}

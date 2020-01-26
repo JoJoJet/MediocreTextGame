@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: WitchHuntOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: dd55be4d692f65040b1c233c5e4e02af, type: 2}
+  image: {fileID: 21300000, guid: a2963e8c278e97042863b7f390e92fcf, type: 3}
+  text: 'You decide to play a game of "witch hunt".
+
+    You draw the short straw and you have to play the witch.'
+  question: The children attack
+  mode: 0
+  optionsText:
+  - Run
+  - Cast a spell
+  - Beg for mercy
+  optionRefs:
+  - {fileID: 11400000, guid: 56c464d4a9719984883f6c44f73630eb, type: 2}
+  - {fileID: 11400000, guid: 559827713ff67a24ebb9b0f12b64d263, type: 2}
+  - {fileID: 11400000, guid: 573d7b2602ba29e40916c64957316405, type: 2}

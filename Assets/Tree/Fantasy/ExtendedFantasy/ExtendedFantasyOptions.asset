@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: ExtendedFantasyOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 0}
+  image: {fileID: 21300000, guid: aa4799cdcf326cd4e845ff7ac76d2a34, type: 3}
+  text: 
+  question: The War of the Seven Tiny Jockeys cometh
+  mode: 0
+  optionsText:
+  - Serve on the front lines
+  - Work in R&D
+  - Be a battle cleric
+  - My name Bennet and I ain't in it
+  optionRefs:
+  - {fileID: 11400000, guid: 95d6d31d15c58874c87d157803f97e81, type: 2}
+  - {fileID: 11400000, guid: 15be84a1ce8a1774c97d1c02d7163692, type: 2}
+  - {fileID: 11400000, guid: c854c8b1b7bca4242bfad3045f091cbb, type: 2}
+  - {fileID: 11400000, guid: 32ad770116f156a4eb05d9d228e80e5e, type: 2}

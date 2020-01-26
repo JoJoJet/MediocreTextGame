@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: ShackOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: db9d6ed63e6501d46ba309c77ce2ea4c, type: 2}
+  image: {fileID: 21300000, guid: e75f1d71f01c92442b60b8ef9baa688b, type: 3}
+  text: You enter the old shack, and can see some juuls and a pool of glowing liquid.
+  question: What do you do?
+  mode: 0
+  optionsText:
+  - Inspect the juuls
+  - Drink the glowing liquid
+  - Go to the storage room
+  optionRefs:
+  - {fileID: 11400000, guid: 07306c364440ff64bba86086a8334af2, type: 2}
+  - {fileID: 11400000, guid: cde837325e394304ea50cdecc183e9a5, type: 2}
+  - {fileID: 11400000, guid: c7152d46574121b4780697d3dbd0b36b, type: 2}

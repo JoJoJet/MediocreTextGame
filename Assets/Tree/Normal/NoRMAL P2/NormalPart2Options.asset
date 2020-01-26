@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: NormalPart2Options
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 0}
+  image: {fileID: 21300000, guid: 94c0d5a3485a7d649b9b86303b28313d, type: 3}
+  text: The NORMAL pig does a barrel-roll towards you.
+  question: How do you react?
+  mode: 0
+  optionsText:
+  - Dodge to the left NORMALLY
+  - Dodge to the right NORMALLY
+  - Criss-cross normally
+  - Turn it out normally
+  optionRefs:
+  - {fileID: 11400000, guid: 63144c3c24f89df409a9a066a1953142, type: 2}
+  - {fileID: 11400000, guid: eaf20971019c87a44b647729ebcc3e8e, type: 2}
+  - {fileID: 11400000, guid: a03621ece7002414aba4e927c424fad2, type: 2}
+  - {fileID: 11400000, guid: ff9304a640a3c044b96bb044037ae3da, type: 2}

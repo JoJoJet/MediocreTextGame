@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: ChildrenOption
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: f2d45305cef8f0944917f1baa25f2a80, type: 2}
+  image: {fileID: 21300000, guid: 69b77627ffd8d8247a73edfc6efff97f, type: 3}
+  text: You walk up to a group of children playing.
+  question: 
+  mode: 0
+  optionsText:
+  - Play jump rope
+  - Play witch hunt
+  - Tell a story
+  optionRefs:
+  - {fileID: 11400000, guid: 0b4dd648db877614ca272fbd5529eefd, type: 2}
+  - {fileID: 11400000, guid: 512f9f596ac1586418f5c917181ba34c, type: 2}
+  - {fileID: 11400000, guid: e9e923bc8e893e948b59f43679db5ec7, type: 2}

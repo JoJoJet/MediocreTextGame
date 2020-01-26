@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: SendVoidOptions
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: f213973d105583d4dba570cf2e3465fb, type: 2}
+  image: {fileID: 21300000, guid: 6ce86c93cdbb08c49acf17c7d4bfb18f, type: 3}
+  text: He thanks you with his parting breath and leaves you small black box.
+  question: Open it?
+  mode: 0
+  optionsText:
+  - Yes
+  - No
+  optionRefs:
+  - {fileID: 11400000, guid: 2a03d055266e3874380997945815c777, type: 2}
+  - {fileID: 11400000, guid: 11f6f46815bd94d40852ee3a650b2f02, type: 2}

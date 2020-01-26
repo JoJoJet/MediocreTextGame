@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eacefd78ba4792b40944d8d138d8866d, type: 3}
+  m_Name: FantasyOption
+  m_EditorClassIdentifier: 
+  parentFinished: 1
+  imageFinished: 1
+  textFinished: 1
+  questionFinished: 1
+  branchFinished: 1
+  parent: {fileID: 11400000, guid: 844d026820f56194d9ebdf7e041710da, type: 2}
+  music: {fileID: 8300000, guid: 8f69364f684933340bdae5365a5d0c41, type: 3}
+  isQuiet: 0
+  background: {r: 0.813, g: 0.08231993, b: 0, a: 1}
+  image: {fileID: 21300000, guid: d66cd73f5ddae124195ab961926ff4e0, type: 3}
+  text: After falling asleep while reading your epic, you awaken to a fantasy RPG
+    world
+  question: There is a village nearby
+  mode: 0
+  optionsText:
+  - Talk to locals
+  - Go to dilapidated shack
+  - Walk to the riverfront
+  - Stop to smell the dwarves
+  optionRefs:
+  - {fileID: 11400000, guid: f2d45305cef8f0944917f1baa25f2a80, type: 2}
+  - {fileID: 11400000, guid: d21331b71396a654cac0b9d5576c51a3, type: 2}
+  - {fileID: 11400000, guid: 54c3c1e8f01458a4bac9c67de4f10b51, type: 2}
+  - {fileID: 11400000, guid: ee113592162b8be4d9d12db1976df6c9, type: 2}
