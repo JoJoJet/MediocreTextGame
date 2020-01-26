@@ -18,7 +18,8 @@ MonoBehaviour:
   questionFinished: 1
   branchFinished: 1
   parent: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: e9f28ef7504c5fe40a300171a1957e56, type: 3}
+  isQuiet: 0
   background: {r: 0.101960786, g: 0.101960786, b: 0.101960786, a: 1}
   image: {fileID: 21300000, guid: 9f6479d19f715204dbc4d881c4dc8ba7, type: 3}
   text: You wake up in a library.
