@@ -95,14 +95,14 @@ public class ChoiceDriver : MonoBehaviour
             buttonInstances = new GameObject[0];
         }
 
-        if(currentVignette.mode == VignetteResult.Death) {
+        if(currentVignette.mode == VignetteResult.Death || currentVignette.mode == VignetteResult.RealDeath) {
             isDead = true;
         }
 
         if(currentVignette.mode == VignetteResult.RealDeath) {
             var but = Instantiate(buttonPrefab.gameObject, canvas.transform);
             but.transform.SetParent(layout.transform);
-            but.GetComponentInChildren<Text>().text = "OK";
+            but.GetComponentInChildren<Text>().text = "Restart the game";
             but.GetComponent<Button>().onClick.AddListener(
                 () => SceneManager.LoadScene(SceneManager.GetActiveScene().name)
             );
